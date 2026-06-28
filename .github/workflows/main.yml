@@ -1,1 +1,65 @@
+name: Midea Stock Alert - 15 min
 
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+    inputs:
+      test_telegram:
+        description: "Envoyer seulement un message test Telegram"
+        required: false
+        default: "false"
+        type: choice
+        options:
+          - "false"
+          - "true"
+      force_alerts:
+        description: "Forcer une alerte si un stock est détecté"
+        required: false
+        default: "false"
+        type: choice
+        options:
+          - "false"
+          - "true"
+
+permissions:
+  contents: write
+
+jobs:
+  check-stock:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          python -m playwright install --with-deps chromium
+
+      - name: Run Midea stock checker
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          TEST_TELEGRAM: ${{ github.event.inputs.test_telegram }}
+          FORCE_ALERTS: ${{ github.event.inputs.force_alerts }}
+          REALERT_HOURS: "6"
+          MAX_PARALLEL: "4"
+        run: python check_stock.py
+
+      - name: Commit updated reports
+        if: always()
+        run: |
+          git config user.name "midea-stock-bot"
+          git config user.email "midea-stock-bot@users.noreply.github.com"
+          mkdir -p data
+          git add data/state.json data/last_report.json || true
+          git commit -m "Update Midea stock report" || echo "No changes to commit"
+          git push || true
