@@ -1,94 +1,102 @@
 {
   "alternate_de": {
-    "status": "unavailable",
+    "status": "unknown",
     "product_ok": true,
     "delivery_status": "positive",
-    "price": "000€",
-    "score": 0,
+    "price": "1154,16€",
+    "score": 6,
     "alertable": false,
-    "fingerprint": "9e957e4aa761d72e7acd9de44014b1e67808b1223f33cf6299515c7474b85ddd",
-    "last_check": "2026-06-28T14:09:33+00:00"
+    "fingerprint": "bd1102d8ac51f618c244bda67de5b3e10ba700b5f1aa9b73427e539097b1429b",
+    "checked_at": "2026-06-28T14:27:09+00:00",
+    "last_alert": null
   },
   "amazon_de": {
-    "status": "unknown",
-    "product_ok": true,
+    "status": "wrong_product_or_unclear",
+    "product_ok": false,
     "delivery_status": "unknown",
     "price": "",
-    "score": 4,
+    "score": 0,
     "alertable": false,
-    "fingerprint": "128a11b88c06c84c13213a41c5ee6677709dbc749efc57a959dc0c1f1ce6496f",
-    "last_check": "2026-06-28T14:09:31+00:00"
+    "fingerprint": "e21fd2e4d73a8c3623e8398e326ec6e00fbfaca270988078faf8f26d3d2b2844",
+    "checked_at": "2026-06-28T14:26:55+00:00",
+    "last_alert": null
   },
   "amazon_es": {
-    "status": "unknown",
-    "product_ok": true,
+    "status": "wrong_product_or_unclear",
+    "product_ok": false,
     "delivery_status": "unknown",
     "price": "",
-    "score": 4,
+    "score": 0,
     "alertable": false,
-    "fingerprint": "128a11b88c06c84c13213a41c5ee6677709dbc749efc57a959dc0c1f1ce6496f",
-    "last_check": "2026-06-28T14:09:31+00:00"
+    "fingerprint": "e21fd2e4d73a8c3623e8398e326ec6e00fbfaca270988078faf8f26d3d2b2844",
+    "checked_at": "2026-06-28T14:26:55+00:00",
+    "last_alert": null
   },
   "amazon_fr": {
-    "status": "unknown",
-    "product_ok": true,
+    "status": "wrong_product_or_unclear",
+    "product_ok": false,
     "delivery_status": "assumed_ok",
     "price": "",
-    "score": 4,
+    "score": 1,
     "alertable": false,
-    "fingerprint": "2f4a44d3083e38631d35a66e7e25f9c9810fedf3344d1d7126b69fe756cd4d1a",
-    "last_check": "2026-06-28T14:09:31+00:00"
+    "fingerprint": "56917b14caa77e7288312257e9fdd0770b2ec5c48019dcb64fdd4e0b48120dba",
+    "checked_at": "2026-06-28T14:26:55+00:00",
+    "last_alert": null
   },
   "amazon_it": {
-    "status": "unknown",
-    "product_ok": true,
+    "status": "wrong_product_or_unclear",
+    "product_ok": false,
     "delivery_status": "unknown",
     "price": "",
-    "score": 4,
+    "score": 0,
     "alertable": false,
-    "fingerprint": "128a11b88c06c84c13213a41c5ee6677709dbc749efc57a959dc0c1f1ce6496f",
-    "last_check": "2026-06-28T14:09:31+00:00"
+    "fingerprint": "e21fd2e4d73a8c3623e8398e326ec6e00fbfaca270988078faf8f26d3d2b2844",
+    "checked_at": "2026-06-28T14:26:55+00:00",
+    "last_alert": null
   },
   "bauhaus_de": {
     "status": "wrong_product_or_unclear",
     "product_ok": false,
-    "delivery_status": "positive",
-    "price": "",
-    "score": -14,
-    "alertable": false,
-    "fingerprint": "47b64602c8eb9baacf7bcd233f974907d7e7da1c0dd71b8df768f62d86e9ae0d",
-    "last_check": "2026-06-28T14:09:32+00:00"
-  },
-  "boulanger_fr": {
-    "status": "error",
-    "product_ok": false,
     "delivery_status": "unknown",
     "price": "",
     "score": 0,
     "alertable": false,
-    "fingerprint": "e045b10b231b334b8319f82553e3eeb3610828284155851177f690bf3c170d8e",
-    "last_check": "2026-06-28T14:09:31+00:00"
+    "fingerprint": "e21fd2e4d73a8c3623e8398e326ec6e00fbfaca270988078faf8f26d3d2b2844",
+    "checked_at": "2026-06-28T14:27:06+00:00",
+    "last_alert": null
+  },
+  "boulanger_fr": {
+    "status": "wrong_product_or_unclear",
+    "product_ok": false,
+    "delivery_status": "assumed_ok",
+    "price": "",
+    "score": 1,
+    "alertable": false,
+    "fingerprint": "56917b14caa77e7288312257e9fdd0770b2ec5c48019dcb64fdd4e0b48120dba",
+    "checked_at": "2026-06-28T14:26:58+00:00",
+    "last_alert": null
   },
   "bricoprive_fr": {
     "status": "wrong_product_or_unclear",
     "product_ok": false,
     "delivery_status": "assumed_ok",
-    "price": "10€",
-    "score": -9,
+    "price": "",
+    "score": 1,
     "alertable": false,
-    "fingerprint": "b532c2e0148f9994ecce9e002b2297d83925ca6187367551e6183bd193a24ee6",
-    "last_check": "2026-06-28T14:09:35+00:00"
+    "fingerprint": "56917b14caa77e7288312257e9fdd0770b2ec5c48019dcb64fdd4e0b48120dba",
+    "checked_at": "2026-06-28T14:27:29+00:00",
+    "last_alert": null
   },
   "castorama_fr": {
-    "last_alert": "2026-06-28T14:09:57+00:00",
-    "status": "available",
+    "status": "unknown",
     "product_ok": true,
     "delivery_status": "positive",
     "price": "999€",
-    "score": 9,
-    "alertable": true,
-    "fingerprint": "0645969313a0eef27e17fbb0f302cdddb6d2739a28a6f2f9fc62582475cbb425",
-    "last_check": "2026-06-28T14:09:31+00:00"
+    "score": 0,
+    "alertable": false,
+    "fingerprint": "53f8f6b17352ff41309e14e056eb8c81109d86e2cda24426322c7bdabb8ab653",
+    "checked_at": "2026-06-28T14:26:59+00:00",
+    "last_alert": "2026-06-28T14:09:57+00:00"
   },
   "cdiscount": {
     "status": "wrong_product_or_unclear",
@@ -105,10 +113,11 @@
     "product_ok": false,
     "delivery_status": "assumed_ok",
     "price": "",
-    "score": -10,
+    "score": 1,
     "alertable": false,
-    "fingerprint": "db21efad1c10f321d05f11aae8e4b7bcc9143669db2b77c49dee8a60ffe16221",
-    "last_check": "2026-06-28T14:09:34+00:00"
+    "fingerprint": "56917b14caa77e7288312257e9fdd0770b2ec5c48019dcb64fdd4e0b48120dba",
+    "checked_at": "2026-06-28T14:27:26+00:00",
+    "last_alert": null
   },
   "ebay_fr": {
     "status": "wrong_product_or_unclear",
@@ -123,142 +132,156 @@
   "entratek_de": {
     "status": "unavailable",
     "product_ok": true,
-    "delivery_status": "positive",
-    "price": "199,00€",
+    "delivery_status": "negative",
+    "price": "950,00€",
     "score": 3,
     "alertable": false,
-    "fingerprint": "10c10dec1179629c5b28079850d85542f6956a5f46712779eddaa90d7209bf23",
-    "last_check": "2026-06-28T14:09:33+00:00"
+    "fingerprint": "b1e52623395e55e17ad97f8ec5251116b8b577f6b6497e587117cafbba17f6e6",
+    "checked_at": "2026-06-28T14:27:11+00:00",
+    "last_alert": null
   },
   "fnac_fr": {
     "status": "wrong_product_or_unclear",
     "product_ok": false,
     "delivery_status": "assumed_ok",
     "price": "",
-    "score": -10,
+    "score": 1,
     "alertable": false,
-    "fingerprint": "db21efad1c10f321d05f11aae8e4b7bcc9143669db2b77c49dee8a60ffe16221",
-    "last_check": "2026-06-28T14:09:31+00:00"
+    "fingerprint": "56917b14caa77e7288312257e9fdd0770b2ec5c48019dcb64fdd4e0b48120dba",
+    "checked_at": "2026-06-28T14:27:00+00:00",
+    "last_alert": null
   },
   "galaxus_fr": {
-    "status": "wrong_product_or_unclear",
+    "status": "error",
     "product_ok": false,
-    "delivery_status": "unknown",
+    "delivery_status": "assumed_ok",
     "price": "",
-    "score": -10,
+    "score": 1,
     "alertable": false,
-    "fingerprint": "05597eaa16b398ab1be428d9491c121f2854c86dadae70bec06154969a1b893b",
-    "last_check": "2026-06-28T14:09:32+00:00"
+    "fingerprint": "9e7c4be1c8c3d80074201ab963eae6a0e7ba8c0077f0be1b4d72391ff2623eea",
+    "checked_at": "2026-06-28T14:26:58+00:00",
+    "last_alert": null
   },
   "geizhals": {
-    "status": "wrong_product_or_unclear",
-    "product_ok": false,
-    "delivery_status": "unknown",
+    "status": "unknown",
+    "product_ok": true,
+    "delivery_status": "negative",
     "price": "",
-    "score": -10,
+    "score": 1,
     "alertable": false,
-    "fingerprint": "05597eaa16b398ab1be428d9491c121f2854c86dadae70bec06154969a1b893b",
-    "last_check": "2026-06-28T14:09:34+00:00"
+    "fingerprint": "541ed3e91bfa8da36cfbe463a66731105bbf384018be4ac4e79315e05d495ba6",
+    "checked_at": "2026-06-28T14:27:14+00:00",
+    "last_alert": null
   },
   "groupsumi_fr": {
-    "status": "unavailable",
+    "status": "unknown",
     "product_ok": true,
     "delivery_status": "positive",
     "price": "989.99€",
-    "score": 3,
+    "score": 0,
     "alertable": false,
-    "fingerprint": "638291c25f1fe8f2992f889d6916e436ad0e1ef9beef0fb0d93d1a8eb2127dd2",
-    "last_check": "2026-06-28T14:09:32+00:00"
+    "fingerprint": "f2ee7e697b9028a4949de46401ec2f07a6e49fb909f1e4dda4c9146a3d5c9cdc",
+    "checked_at": "2026-06-28T14:27:04+00:00",
+    "last_alert": null
   },
   "hornbach_de": {
     "status": "wrong_product_or_unclear",
     "product_ok": false,
-    "delivery_status": "unknown",
+    "delivery_status": "positive",
     "price": "",
-    "score": -10,
+    "score": -5,
     "alertable": false,
-    "fingerprint": "05597eaa16b398ab1be428d9491c121f2854c86dadae70bec06154969a1b893b",
-    "last_check": "2026-06-28T14:09:34+00:00"
+    "fingerprint": "c08144b503dae35ebd381b4d76b135002b650315b13d3d996fdc1a291686858d",
+    "checked_at": "2026-06-28T14:27:07+00:00",
+    "last_alert": null
   },
   "idealo_de": {
     "status": "wrong_product_or_unclear",
     "product_ok": false,
     "delivery_status": "unknown",
     "price": "",
-    "score": -10,
+    "score": 0,
     "alertable": false,
-    "fingerprint": "05597eaa16b398ab1be428d9491c121f2854c86dadae70bec06154969a1b893b",
-    "last_check": "2026-06-28T14:09:33+00:00"
+    "fingerprint": "e21fd2e4d73a8c3623e8398e326ec6e00fbfaca270988078faf8f26d3d2b2844",
+    "checked_at": "2026-06-28T14:27:11+00:00",
+    "last_alert": null
   },
   "idealo_fr": {
     "status": "wrong_product_or_unclear",
     "product_ok": false,
     "delivery_status": "assumed_ok",
     "price": "",
-    "score": -10,
+    "score": 1,
     "alertable": false,
-    "fingerprint": "db21efad1c10f321d05f11aae8e4b7bcc9143669db2b77c49dee8a60ffe16221",
-    "last_check": "2026-06-28T14:09:33+00:00"
+    "fingerprint": "56917b14caa77e7288312257e9fdd0770b2ec5c48019dcb64fdd4e0b48120dba",
+    "checked_at": "2026-06-28T14:27:26+00:00",
+    "last_alert": null
   },
   "kaufland_de": {
     "status": "wrong_product_or_unclear",
     "product_ok": false,
     "delivery_status": "unknown",
     "price": "",
-    "score": -10,
+    "score": 0,
     "alertable": false,
-    "fingerprint": "05597eaa16b398ab1be428d9491c121f2854c86dadae70bec06154969a1b893b",
-    "last_check": "2026-06-28T14:09:34+00:00"
+    "fingerprint": "e21fd2e4d73a8c3623e8398e326ec6e00fbfaca270988078faf8f26d3d2b2844",
+    "checked_at": "2026-06-28T14:27:09+00:00",
+    "last_alert": null
   },
   "leboncoin": {
     "status": "wrong_product_or_unclear",
     "product_ok": false,
     "delivery_status": "unknown",
     "price": "",
-    "score": -10,
+    "score": 0,
     "alertable": false,
-    "fingerprint": "05597eaa16b398ab1be428d9491c121f2854c86dadae70bec06154969a1b893b",
-    "last_check": "2026-06-28T14:09:34+00:00"
+    "fingerprint": "e21fd2e4d73a8c3623e8398e326ec6e00fbfaca270988078faf8f26d3d2b2844",
+    "checked_at": "2026-06-28T14:27:25+00:00",
+    "last_alert": null
   },
   "leroymerlin_fr": {
     "status": "wrong_product_or_unclear",
     "product_ok": false,
     "delivery_status": "assumed_ok",
     "price": "",
-    "score": -10,
+    "score": 1,
     "alertable": false,
-    "fingerprint": "db21efad1c10f321d05f11aae8e4b7bcc9143669db2b77c49dee8a60ffe16221",
-    "last_check": "2026-06-28T14:09:31+00:00"
+    "fingerprint": "56917b14caa77e7288312257e9fdd0770b2ec5c48019dcb64fdd4e0b48120dba",
+    "checked_at": "2026-06-28T14:26:58+00:00",
+    "last_alert": null
   },
   "manomano_fr": {
     "status": "wrong_product_or_unclear",
     "product_ok": false,
     "delivery_status": "assumed_ok",
     "price": "",
-    "score": -10,
+    "score": 1,
     "alertable": false,
-    "fingerprint": "db21efad1c10f321d05f11aae8e4b7bcc9143669db2b77c49dee8a60ffe16221",
-    "last_check": "2026-06-28T14:09:31+00:00"
+    "fingerprint": "56917b14caa77e7288312257e9fdd0770b2ec5c48019dcb64fdd4e0b48120dba",
+    "checked_at": "2026-06-28T14:27:01+00:00",
+    "last_alert": null
   },
   "maxoutil_fr": {
     "status": "wrong_product_or_unclear",
     "product_ok": false,
     "delivery_status": "positive",
-    "price": "100€",
-    "score": -8,
+    "price": "",
+    "score": -3,
     "alertable": false,
-    "fingerprint": "5fcdb8ab11f150a3de5ef24f9702d9a3ac6b0ea46c675fe55704bbe6ecbac665",
-    "last_check": "2026-06-28T14:09:35+00:00"
+    "fingerprint": "c08144b503dae35ebd381b4d76b135002b650315b13d3d996fdc1a291686858d",
+    "checked_at": "2026-06-28T14:27:30+00:00",
+    "last_alert": null
   },
   "metro_fr": {
     "status": "wrong_product_or_unclear",
     "product_ok": false,
     "delivery_status": "assumed_ok",
     "price": "",
-    "score": -10,
+    "score": 1,
     "alertable": false,
-    "fingerprint": "db21efad1c10f321d05f11aae8e4b7bcc9143669db2b77c49dee8a60ffe16221",
-    "last_check": "2026-06-28T14:09:34+00:00"
+    "fingerprint": "56917b14caa77e7288312257e9fdd0770b2ec5c48019dcb64fdd4e0b48120dba",
+    "checked_at": "2026-06-28T14:27:28+00:00",
+    "last_alert": null
   },
   "midea_lu": {
     "status": "error",
@@ -267,28 +290,31 @@
     "price": "",
     "score": 0,
     "alertable": false,
-    "fingerprint": "e045b10b231b334b8319f82553e3eeb3610828284155851177f690bf3c170d8e",
-    "last_check": "2026-06-28T14:09:32+00:00"
+    "fingerprint": "2a64bfefed2ac24b4663bfd35461ebcec2852202910448dbe4ef0ab5ac4d97e8",
+    "checked_at": "2026-06-28T14:27:01+00:00",
+    "last_alert": null
   },
   "obi_de": {
-    "status": "unavailable",
+    "status": "available",
     "product_ok": true,
-    "delivery_status": "positive",
-    "price": "99€",
-    "score": 3,
+    "delivery_status": "negative",
+    "price": "699,00€",
+    "score": 9,
     "alertable": false,
-    "fingerprint": "56d796312b0fe807208848f69c89fa744ea7bc4c4a0adfb75e92fc7cd9b872b4",
-    "last_check": "2026-06-28T14:09:32+00:00"
+    "fingerprint": "0cf43a3974bba768ca4220cf415bf77198b9cf23338cc175e192791de1ede87a",
+    "checked_at": "2026-06-28T14:27:06+00:00",
+    "last_alert": null
   },
   "pac_store_fr": {
     "status": "unavailable",
     "product_ok": true,
     "delivery_status": "positive",
     "price": "530.52€",
-    "score": 0,
+    "score": -4,
     "alertable": false,
-    "fingerprint": "10738d16c3c8715a65ec1b138bd6ffb9a83cc1810f5499eb201c5297a8ad9064",
-    "last_check": "2026-06-28T14:09:32+00:00"
+    "fingerprint": "7fa195215f980342e05cc8814e1a70159229a089ca95d0309a5f8a2e9e65043d",
+    "checked_at": "2026-06-28T14:27:02+00:00",
+    "last_alert": null
   },
   "rakuten": {
     "status": "wrong_product_or_unclear",
@@ -304,21 +330,23 @@
     "status": "unavailable",
     "product_ok": true,
     "delivery_status": "positive",
-    "price": "00€",
-    "score": 3,
+    "price": "999,00€",
+    "score": 4,
     "alertable": false,
-    "fingerprint": "b76ce278d86c5a4c12bfecd8af762c1067cd07e538553abf676ded297e28104c",
-    "last_check": "2026-06-28T14:09:33+00:00"
+    "fingerprint": "849aa90c58b517b66ae0db7fe2cd39bc80f1e9298f0dbf3dd8cd77c56bb90d6c",
+    "checked_at": "2026-06-28T14:27:11+00:00",
+    "last_alert": null
   },
   "tado_shop": {
     "status": "unavailable",
     "product_ok": true,
-    "delivery_status": "positive",
+    "delivery_status": "negative",
     "price": "499,00€",
-    "score": 0,
+    "score": 1,
     "alertable": false,
-    "fingerprint": "169a5ee653ab52148962392382f50e4c907ced7d8901938d962052a1a24e1cf1",
-    "last_check": "2026-06-28T14:09:32+00:00"
+    "fingerprint": "c85944d30381887e7ca93dad55436d194aa04a82bd26514d39e587b680d726fa",
+    "checked_at": "2026-06-28T14:27:05+00:00",
+    "last_alert": null
   },
   "toom_de": {
     "status": "error",
@@ -327,17 +355,426 @@
     "price": "",
     "score": 0,
     "alertable": false,
-    "fingerprint": "e045b10b231b334b8319f82553e3eeb3610828284155851177f690bf3c170d8e",
-    "last_check": "2026-06-28T14:09:34+00:00"
+    "fingerprint": "2a64bfefed2ac24b4663bfd35461ebcec2852202910448dbe4ef0ab5ac4d97e8",
+    "checked_at": "2026-06-28T14:27:06+00:00",
+    "last_alert": null
   },
   "ubaldi_fr": {
     "status": "wrong_product_or_unclear",
     "product_ok": false,
     "delivery_status": "assumed_ok",
     "price": "",
-    "score": -10,
+    "score": 1,
     "alertable": false,
-    "fingerprint": "db21efad1c10f321d05f11aae8e4b7bcc9143669db2b77c49dee8a60ffe16221",
-    "last_check": "2026-06-28T14:09:35+00:00"
+    "fingerprint": "56917b14caa77e7288312257e9fdd0770b2ec5c48019dcb64fdd4e0b48120dba",
+    "checked_at": "2026-06-28T14:27:27+00:00",
+    "last_alert": null
+  },
+  "amazon_nl": {
+    "status": "wrong_product_or_unclear",
+    "product_ok": false,
+    "delivery_status": "unknown",
+    "price": "",
+    "score": 0,
+    "alertable": false,
+    "fingerprint": "e21fd2e4d73a8c3623e8398e326ec6e00fbfaca270988078faf8f26d3d2b2844",
+    "checked_at": "2026-06-28T14:26:58+00:00",
+    "last_alert": null
+  },
+  "otto_de": {
+    "status": "unavailable",
+    "product_ok": true,
+    "delivery_status": "positive",
+    "price": "439,95€",
+    "score": -2,
+    "alertable": false,
+    "fingerprint": "09d7dfbba092e2679a17374f1110f4c5ce4e52c6c4964679dcaf95de76038f8a",
+    "checked_at": "2026-06-28T14:27:18+00:00",
+    "last_alert": null
+  },
+  "computeruniverse_de": {
+    "status": "wrong_product_or_unclear",
+    "product_ok": false,
+    "delivery_status": "unknown",
+    "price": "",
+    "score": 0,
+    "alertable": false,
+    "fingerprint": "e21fd2e4d73a8c3623e8398e326ec6e00fbfaca270988078faf8f26d3d2b2844",
+    "checked_at": "2026-06-28T14:27:14+00:00",
+    "last_alert": null
+  },
+  "expert_de": {
+    "status": "wrong_product_or_unclear",
+    "product_ok": false,
+    "delivery_status": "negative",
+    "price": "549.99€",
+    "score": -6,
+    "alertable": false,
+    "fingerprint": "3146ac884444a88ffe17af75b1ecbbfeb0035ae363c0d1124f89750206698d3e",
+    "checked_at": "2026-06-28T14:27:17+00:00",
+    "last_alert": null
+  },
+  "mediamarkt_de": {
+    "status": "unknown",
+    "product_ok": true,
+    "delivery_status": "negative",
+    "price": "899,00€",
+    "score": 3,
+    "alertable": false,
+    "fingerprint": "de5f36ea84d7e91c2a1ab6263cb10e00f8d10d24c9101f6bef971f498dc782e5",
+    "checked_at": "2026-06-28T14:27:20+00:00",
+    "last_alert": null
+  },
+  "saturn_de": {
+    "status": "unknown",
+    "product_ok": true,
+    "delivery_status": "negative",
+    "price": "899,00€",
+    "score": 3,
+    "alertable": false,
+    "fingerprint": "de5f36ea84d7e91c2a1ab6263cb10e00f8d10d24c9101f6bef971f498dc782e5",
+    "checked_at": "2026-06-28T14:27:19+00:00",
+    "last_alert": null
+  },
+  "conrad_de": {
+    "status": "wrong_product_or_unclear",
+    "product_ok": false,
+    "delivery_status": "positive",
+    "price": "360,50€",
+    "score": -1,
+    "alertable": false,
+    "fingerprint": "7791998e5eec8e8e06ad327315916f5140ef60853a4eccb282667b460464b61e",
+    "checked_at": "2026-06-28T14:27:22+00:00",
+    "last_alert": null
+  },
+  "globus_baumarkt_de": {
+    "status": "wrong_product_or_unclear",
+    "product_ok": false,
+    "delivery_status": "positive",
+    "price": "",
+    "score": -9,
+    "alertable": false,
+    "fingerprint": "c08144b503dae35ebd381b4d76b135002b650315b13d3d996fdc1a291686858d",
+    "checked_at": "2026-06-28T14:27:22+00:00",
+    "last_alert": null
+  },
+  "cdiscount_search": {
+    "status": "unknown",
+    "product_ok": true,
+    "delivery_status": "positive",
+    "price": "629,99€",
+    "score": 0,
+    "alertable": false,
+    "fingerprint": "6f73c3e16c65484a9f55d4c3ab56f4c240a7eb3aa34404afa44b6b9bca628e1e",
+    "checked_at": "2026-06-28T14:27:23+00:00",
+    "last_alert": null
+  },
+  "rakuten_search": {
+    "status": "wrong_product_or_unclear",
+    "product_ok": false,
+    "delivery_status": "assumed_ok",
+    "price": "",
+    "score": 1,
+    "alertable": false,
+    "fingerprint": "56917b14caa77e7288312257e9fdd0770b2ec5c48019dcb64fdd4e0b48120dba",
+    "checked_at": "2026-06-28T14:27:23+00:00",
+    "last_alert": null
+  },
+  "ebay_fr_search": {
+    "status": "wrong_product_or_unclear",
+    "product_ok": false,
+    "delivery_status": "unknown",
+    "price": "",
+    "score": 0,
+    "alertable": false,
+    "fingerprint": "e21fd2e4d73a8c3623e8398e326ec6e00fbfaca270988078faf8f26d3d2b2844",
+    "checked_at": "2026-06-28T14:27:25+00:00",
+    "last_alert": null
+  },
+  "bricodepot_fr": {
+    "status": "wrong_product_or_unclear",
+    "product_ok": false,
+    "delivery_status": "positive",
+    "price": "422€",
+    "score": -3,
+    "alertable": false,
+    "fingerprint": "c17a8e131a2d7cf7be3eb80cc721fac68d365ee0dd78abb15b3c186cc49b38d9",
+    "checked_at": "2026-06-28T14:27:31+00:00",
+    "last_alert": null
+  },
+  "electrodepot_fr": {
+    "status": "wrong_product_or_unclear",
+    "product_ok": false,
+    "delivery_status": "positive",
+    "price": "839€",
+    "score": -5,
+    "alertable": false,
+    "fingerprint": "53e894640014ebc9db04fad5c9bb65d82d25417b0fa7364582ccae3232aff635",
+    "checked_at": "2026-06-28T14:27:31+00:00",
+    "last_alert": null
+  },
+  "but_fr": {
+    "status": "wrong_product_or_unclear",
+    "product_ok": false,
+    "delivery_status": "assumed_ok",
+    "price": "",
+    "score": 1,
+    "alertable": false,
+    "fingerprint": "56917b14caa77e7288312257e9fdd0770b2ec5c48019dcb64fdd4e0b48120dba",
+    "checked_at": "2026-06-28T14:27:32+00:00",
+    "last_alert": null
+  },
+  "conforama_fr": {
+    "status": "wrong_product_or_unclear",
+    "product_ok": false,
+    "delivery_status": "assumed_ok",
+    "price": "",
+    "score": 1,
+    "alertable": false,
+    "fingerprint": "56917b14caa77e7288312257e9fdd0770b2ec5c48019dcb64fdd4e0b48120dba",
+    "checked_at": "2026-06-28T14:27:33+00:00",
+    "last_alert": null
+  },
+  "auchan_fr": {
+    "status": "wrong_product_or_unclear",
+    "product_ok": false,
+    "delivery_status": "assumed_ok",
+    "price": "",
+    "score": 1,
+    "alertable": false,
+    "fingerprint": "56917b14caa77e7288312257e9fdd0770b2ec5c48019dcb64fdd4e0b48120dba",
+    "checked_at": "2026-06-28T14:27:34+00:00",
+    "last_alert": null
+  },
+  "carrefour_fr": {
+    "status": "wrong_product_or_unclear",
+    "product_ok": false,
+    "delivery_status": "assumed_ok",
+    "price": "",
+    "score": 1,
+    "alertable": false,
+    "fingerprint": "56917b14caa77e7288312257e9fdd0770b2ec5c48019dcb64fdd4e0b48120dba",
+    "checked_at": "2026-06-28T14:27:34+00:00",
+    "last_alert": null
+  },
+  "leclerc_fr": {
+    "status": "wrong_product_or_unclear",
+    "product_ok": false,
+    "delivery_status": "assumed_ok",
+    "price": "",
+    "score": 1,
+    "alertable": false,
+    "fingerprint": "56917b14caa77e7288312257e9fdd0770b2ec5c48019dcb64fdd4e0b48120dba",
+    "checked_at": "2026-06-28T14:27:35+00:00",
+    "last_alert": null
+  },
+  "intermarche_fr": {
+    "status": "wrong_product_or_unclear",
+    "product_ok": false,
+    "delivery_status": "assumed_ok",
+    "price": "",
+    "score": 1,
+    "alertable": false,
+    "fingerprint": "56917b14caa77e7288312257e9fdd0770b2ec5c48019dcb64fdd4e0b48120dba",
+    "checked_at": "2026-06-28T14:27:36+00:00",
+    "last_alert": null
+  },
+  "laredoute_fr": {
+    "status": "wrong_product_or_unclear",
+    "product_ok": false,
+    "delivery_status": "assumed_ok",
+    "price": "",
+    "score": 1,
+    "alertable": false,
+    "fingerprint": "56917b14caa77e7288312257e9fdd0770b2ec5c48019dcb64fdd4e0b48120dba",
+    "checked_at": "2026-06-28T14:27:37+00:00",
+    "last_alert": null
+  },
+  "rueducommerce_fr": {
+    "status": "wrong_product_or_unclear",
+    "product_ok": false,
+    "delivery_status": "positive",
+    "price": "",
+    "score": 1,
+    "alertable": false,
+    "fingerprint": "c08144b503dae35ebd381b4d76b135002b650315b13d3d996fdc1a291686858d",
+    "checked_at": "2026-06-28T14:27:39+00:00",
+    "last_alert": null
+  },
+  "ldlc_fr": {
+    "status": "wrong_product_or_unclear",
+    "product_ok": false,
+    "delivery_status": "positive",
+    "price": "",
+    "score": 1,
+    "alertable": false,
+    "fingerprint": "c08144b503dae35ebd381b4d76b135002b650315b13d3d996fdc1a291686858d",
+    "checked_at": "2026-06-28T14:27:39+00:00",
+    "last_alert": null
+  },
+  "materiel_net_fr": {
+    "status": "wrong_product_or_unclear",
+    "product_ok": false,
+    "delivery_status": "positive",
+    "price": "",
+    "score": 1,
+    "alertable": false,
+    "fingerprint": "c08144b503dae35ebd381b4d76b135002b650315b13d3d996fdc1a291686858d",
+    "checked_at": "2026-06-28T14:27:40+00:00",
+    "last_alert": null
+  },
+  "coolblue_fr": {
+    "status": "error",
+    "product_ok": false,
+    "delivery_status": "assumed_ok",
+    "price": "",
+    "score": 1,
+    "alertable": false,
+    "fingerprint": "9e7c4be1c8c3d80074201ab963eae6a0e7ba8c0077f0be1b4d72391ff2623eea",
+    "checked_at": "2026-06-28T14:27:37+00:00",
+    "last_alert": null
+  },
+  "coolblue_be": {
+    "status": "wrong_product_or_unclear",
+    "product_ok": false,
+    "delivery_status": "positive",
+    "price": "",
+    "score": 5,
+    "alertable": false,
+    "fingerprint": "c08144b503dae35ebd381b4d76b135002b650315b13d3d996fdc1a291686858d",
+    "checked_at": "2026-06-28T14:27:40+00:00",
+    "last_alert": null
+  },
+  "bol_nl": {
+    "status": "wrong_product_or_unclear",
+    "product_ok": false,
+    "delivery_status": "unknown",
+    "price": "",
+    "score": 0,
+    "alertable": false,
+    "fingerprint": "e21fd2e4d73a8c3623e8398e326ec6e00fbfaca270988078faf8f26d3d2b2844",
+    "checked_at": "2026-06-28T14:27:42+00:00",
+    "last_alert": null
+  },
+  "gamma_nl": {
+    "status": "wrong_product_or_unclear",
+    "product_ok": false,
+    "delivery_status": "unknown",
+    "price": "",
+    "score": -6,
+    "alertable": false,
+    "fingerprint": "e21fd2e4d73a8c3623e8398e326ec6e00fbfaca270988078faf8f26d3d2b2844",
+    "checked_at": "2026-06-28T14:27:43+00:00",
+    "last_alert": null
+  },
+  "praxis_nl": {
+    "status": "wrong_product_or_unclear",
+    "product_ok": false,
+    "delivery_status": "unknown",
+    "price": "",
+    "score": -6,
+    "alertable": false,
+    "fingerprint": "e21fd2e4d73a8c3623e8398e326ec6e00fbfaca270988078faf8f26d3d2b2844",
+    "checked_at": "2026-06-28T14:27:45+00:00",
+    "last_alert": null
+  },
+  "hubo_be": {
+    "status": "wrong_product_or_unclear",
+    "product_ok": false,
+    "delivery_status": "positive",
+    "price": "",
+    "score": -5,
+    "alertable": false,
+    "fingerprint": "c08144b503dae35ebd381b4d76b135002b650315b13d3d996fdc1a291686858d",
+    "checked_at": "2026-06-28T14:27:44+00:00",
+    "last_alert": null
+  },
+  "brico_be": {
+    "status": "unknown",
+    "product_ok": true,
+    "delivery_status": "positive",
+    "price": "",
+    "score": 4,
+    "alertable": false,
+    "fingerprint": "c0d9f4c4e141052d2e5047d39c66e59a1cfd0af3d54a22e2ca66f7ff276cbb42",
+    "checked_at": "2026-06-28T14:27:46+00:00",
+    "last_alert": null
+  },
+  "mediamarkt_es": {
+    "status": "wrong_product_or_unclear",
+    "product_ok": false,
+    "delivery_status": "positive",
+    "price": "590,00€",
+    "score": 1,
+    "alertable": false,
+    "fingerprint": "4f83d0367cc4f64964b1f697c187b3b7f7ee1629df981b135a74c75dd9032b93",
+    "checked_at": "2026-06-28T14:27:47+00:00",
+    "last_alert": null
+  },
+  "leroymerlin_es": {
+    "status": "wrong_product_or_unclear",
+    "product_ok": false,
+    "delivery_status": "unknown",
+    "price": "",
+    "score": 0,
+    "alertable": false,
+    "fingerprint": "e21fd2e4d73a8c3623e8398e326ec6e00fbfaca270988078faf8f26d3d2b2844",
+    "checked_at": "2026-06-28T14:27:47+00:00",
+    "last_alert": null
+  },
+  "carrefour_es": {
+    "status": "wrong_product_or_unclear",
+    "product_ok": false,
+    "delivery_status": "unknown",
+    "price": "",
+    "score": 0,
+    "alertable": false,
+    "fingerprint": "e21fd2e4d73a8c3623e8398e326ec6e00fbfaca270988078faf8f26d3d2b2844",
+    "checked_at": "2026-06-28T14:27:48+00:00",
+    "last_alert": null
+  },
+  "mediamarkt_it": {
+    "status": "unknown",
+    "product_ok": true,
+    "delivery_status": "positive",
+    "price": "1299,00€",
+    "score": 6,
+    "alertable": false,
+    "fingerprint": "372cff3472bece4e34bb873f0672fffcfcd40276ca3f579a351d6a82bace131c",
+    "checked_at": "2026-06-28T14:27:52+00:00",
+    "last_alert": null
+  },
+  "leroymerlin_it": {
+    "status": "wrong_product_or_unclear",
+    "product_ok": false,
+    "delivery_status": "unknown",
+    "price": "",
+    "score": 0,
+    "alertable": false,
+    "fingerprint": "e21fd2e4d73a8c3623e8398e326ec6e00fbfaca270988078faf8f26d3d2b2844",
+    "checked_at": "2026-06-28T14:27:50+00:00",
+    "last_alert": null
+  },
+  "joybuy": {
+    "status": "error",
+    "product_ok": false,
+    "delivery_status": "unknown",
+    "price": "",
+    "score": 0,
+    "alertable": false,
+    "fingerprint": "2a64bfefed2ac24b4663bfd35461ebcec2852202910448dbe4ef0ab5ac4d97e8",
+    "checked_at": "2026-06-28T14:27:51+00:00",
+    "last_alert": null
+  },
+  "aliexpress": {
+    "status": "wrong_product_or_unclear",
+    "product_ok": false,
+    "delivery_status": "positive",
+    "price": "",
+    "score": -5,
+    "alertable": false,
+    "fingerprint": "c08144b503dae35ebd381b4d76b135002b650315b13d3d996fdc1a291686858d",
+    "checked_at": "2026-06-28T14:27:53+00:00",
+    "last_alert": null
   }
 }
