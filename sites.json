@@ -1,0 +1,546 @@
+[
+  {
+    "id": "amazon_fr",
+    "name": "Amazon FR",
+    "country": "FR",
+    "url": "https://www.amazon.fr/dp/B0CY2YW8BT",
+    "delivery_fr": "yes",
+    "kind": "product"
+  },
+  {
+    "id": "amazon_de",
+    "name": "Amazon DE",
+    "country": "DE",
+    "url": "https://www.amazon.de/dp/B0CY2YW8BT",
+    "delivery_fr": "maybe",
+    "kind": "product"
+  },
+  {
+    "id": "amazon_es",
+    "name": "Amazon ES",
+    "country": "ES",
+    "url": "https://www.amazon.es/dp/B0CY2YW8BT",
+    "delivery_fr": "maybe",
+    "kind": "product"
+  },
+  {
+    "id": "amazon_it",
+    "name": "Amazon IT",
+    "country": "IT",
+    "url": "https://www.amazon.it/dp/B0CY2YW8BT",
+    "delivery_fr": "maybe",
+    "kind": "product"
+  },
+  {
+    "id": "amazon_nl",
+    "name": "Amazon NL",
+    "country": "NL/EU",
+    "url": "https://www.amazon.nl/s?k=midea+portasplit",
+    "delivery_fr": "maybe",
+    "kind": "search"
+  },
+  {
+    "id": "castorama_fr",
+    "name": "Castorama France",
+    "country": "FR",
+    "url": "https://www.castorama.fr/climatiseur-portasplit-midea-reversible-3500w/8431312260509_CAFR.prd",
+    "delivery_fr": "yes",
+    "kind": "product"
+  },
+  {
+    "id": "leroymerlin_fr",
+    "name": "Leroy Merlin France",
+    "country": "FR",
+    "url": "https://www.leroymerlin.fr/produits/climatiseur-split-mobile-reversible-portasplit-midea-par-optimea-93857579.html",
+    "delivery_fr": "yes",
+    "kind": "product"
+  },
+  {
+    "id": "boulanger_fr",
+    "name": "Boulanger France",
+    "country": "FR",
+    "url": "https://www.boulanger.com/ref/1216685",
+    "delivery_fr": "yes",
+    "kind": "product"
+  },
+  {
+    "id": "fnac_fr",
+    "name": "Fnac France",
+    "country": "FR",
+    "url": "https://www.fnac.com/MIDEA-Climatiseur-Split-Mobile-Reversible-Froid-Chaud-3500W-12000BTU-WiFi-deshumidificateur-ventilateur-jusqu-a-40m2-kit-fenetre-inclus/a21457105/w-4",
+    "delivery_fr": "yes",
+    "kind": "product"
+  },
+  {
+    "id": "manomano_fr",
+    "name": "ManoMano France",
+    "country": "FR",
+    "url": "https://www.manomano.fr/p/midea-climatiseur-split-mobile-reversible-froid-chaud-3500w12000btu-wifi-deshumidificateur-ventilateur-jusqua-40m2-kit-fenetre-inclus-83810402",
+    "delivery_fr": "yes",
+    "kind": "product"
+  },
+  {
+    "id": "galaxus_fr",
+    "name": "Galaxus France",
+    "country": "FR",
+    "url": "https://www.galaxus.fr/fr/s2/product/midea-porta-split-42-m-12000-btuh-climatiseur-40851329",
+    "delivery_fr": "yes",
+    "kind": "product"
+  },
+  {
+    "id": "pac_store_fr",
+    "name": "PAC Store France",
+    "country": "FR",
+    "url": "https://www.pac-store.fr/boutique/MIDEA-Climatiseur-mobile-PortaSplit-3-5-kW-R32-p671790674",
+    "delivery_fr": "yes",
+    "kind": "product"
+  },
+  {
+    "id": "groupsumi_fr",
+    "name": "GroupSumi France",
+    "country": "FR/EU",
+    "url": "https://groupsumi.fr/chauffage/climatisation/climatiseur-mobile/climatiseur-et-deshumidificateur-portable-4-en-1-midea-portasplit-3-5-kw-13907811",
+    "delivery_fr": "yes",
+    "kind": "product"
+  },
+  {
+    "id": "tado_shop",
+    "name": "tado Shop EU",
+    "country": "EU",
+    "url": "https://shop.tado.com/en/products/midea-portasplit-mobile-split-air-conditioner-3-5-kw",
+    "delivery_fr": "maybe",
+    "kind": "product"
+  },
+  {
+    "id": "midea_lu",
+    "name": "Midea Luxembourg",
+    "country": "LU",
+    "url": "https://www.midea.lu/climatiseur-portasplit-midea-12000-btu/",
+    "delivery_fr": "maybe",
+    "kind": "product"
+  },
+  {
+    "id": "obi_de",
+    "name": "OBI Allemagne",
+    "country": "DE",
+    "url": "https://www.obi.de/p/8620890/midea-mobile-split-klimaanlage-portasplit",
+    "delivery_fr": "maybe",
+    "kind": "product"
+  },
+  {
+    "id": "bauhaus_de",
+    "name": "Bauhaus Allemagne",
+    "country": "DE",
+    "url": "https://www.bauhaus.info/klimaanlagen/midea-klimasplitgeraet-portasplit-12000-btu/p/31934233",
+    "delivery_fr": "maybe",
+    "kind": "product"
+  },
+  {
+    "id": "hornbach_de",
+    "name": "Hornbach Allemagne",
+    "country": "DE",
+    "url": "https://www.hornbach.de/suche/sortiment/midea%20portasplit",
+    "delivery_fr": "maybe",
+    "kind": "search"
+  },
+  {
+    "id": "toom_de",
+    "name": "Toom Allemagne",
+    "country": "DE",
+    "url": "https://toom.de/suche/?search=midea%20portasplit",
+    "delivery_fr": "maybe",
+    "kind": "search"
+  },
+  {
+    "id": "kaufland_de",
+    "name": "Kaufland Allemagne",
+    "country": "DE",
+    "url": "https://www.kaufland.de/s/?search_value=midea%20portasplit",
+    "delivery_fr": "maybe",
+    "kind": "search"
+  },
+  {
+    "id": "alternate_de",
+    "name": "Alternate Allemagne",
+    "country": "DE",
+    "url": "https://www.alternate.de/Midea/PortaSplit-Klimager%C3%A4t/html/product/100144936",
+    "delivery_fr": "maybe",
+    "kind": "product"
+  },
+  {
+    "id": "entratek_de",
+    "name": "Entratek Allemagne",
+    "country": "DE",
+    "url": "https://www.entratek-shop.de/p/midea-portasplit-klimaanlage-mobile-waermepumpe-kuehlen-a-heizen-a-12000-btu-3-5kw",
+    "delivery_fr": "maybe",
+    "kind": "product"
+  },
+  {
+    "id": "raleo_de",
+    "name": "Raleo Allemagne",
+    "country": "DE",
+    "url": "https://raleo.de/item/klima/midea-porta-split-klimageraet-3-500w-eek-a-portasplit/",
+    "delivery_fr": "maybe",
+    "kind": "product"
+  },
+  {
+    "id": "idealo_de",
+    "name": "Idealo Allemagne",
+    "country": "DE",
+    "url": "https://www.idealo.de/preisvergleich/OffersOfProduct/204374464_-portasplit-3-5-kw-midea.html",
+    "delivery_fr": "maybe",
+    "kind": "comparator"
+  },
+  {
+    "id": "geizhals",
+    "name": "Geizhals DE/AT",
+    "country": "DE/AT",
+    "url": "https://geizhals.de/midea-comfee-porta-split-a3201826.html",
+    "delivery_fr": "maybe",
+    "kind": "comparator"
+  },
+  {
+    "id": "otto_de",
+    "name": "Otto DE recherche",
+    "country": "DE",
+    "url": "https://www.otto.de/suche/midea%20portasplit/",
+    "delivery_fr": "maybe",
+    "kind": "search"
+  },
+  {
+    "id": "computeruniverse_de",
+    "name": "Computeruniverse DE recherche",
+    "country": "DE",
+    "url": "https://www.computeruniverse.net/de/search?query=midea%20portasplit",
+    "delivery_fr": "maybe",
+    "kind": "search"
+  },
+  {
+    "id": "expert_de",
+    "name": "Expert DE recherche",
+    "country": "DE",
+    "url": "https://www.expert.de/search?query=midea%20portasplit",
+    "delivery_fr": "maybe",
+    "kind": "search"
+  },
+  {
+    "id": "mediamarkt_de",
+    "name": "MediaMarkt DE recherche",
+    "country": "DE",
+    "url": "https://www.mediamarkt.de/de/search.html?query=midea%20portasplit",
+    "delivery_fr": "maybe",
+    "kind": "search"
+  },
+  {
+    "id": "saturn_de",
+    "name": "Saturn DE recherche",
+    "country": "DE",
+    "url": "https://www.saturn.de/de/search.html?query=midea%20portasplit",
+    "delivery_fr": "maybe",
+    "kind": "search"
+  },
+  {
+    "id": "conrad_de",
+    "name": "Conrad DE recherche",
+    "country": "DE",
+    "url": "https://www.conrad.de/de/search.html?search=midea%20portasplit",
+    "delivery_fr": "maybe",
+    "kind": "search"
+  },
+  {
+    "id": "globus_baumarkt_de",
+    "name": "Globus Baumarkt DE recherche",
+    "country": "DE",
+    "url": "https://www.globus-baumarkt.de/search?sSearch=midea%20portasplit",
+    "delivery_fr": "maybe",
+    "kind": "search"
+  },
+  {
+    "id": "cdiscount_search",
+    "name": "Cdiscount recherche",
+    "country": "FR",
+    "url": "https://www.cdiscount.com/search/10/midea+portasplit.html",
+    "delivery_fr": "yes",
+    "kind": "search"
+  },
+  {
+    "id": "rakuten_search",
+    "name": "Rakuten recherche",
+    "country": "FR",
+    "url": "https://fr.shopping.rakuten.com/search/midea+portasplit",
+    "delivery_fr": "yes",
+    "kind": "search"
+  },
+  {
+    "id": "ebay_fr_search",
+    "name": "eBay France recherche",
+    "country": "FR/EU",
+    "url": "https://www.ebay.fr/sch/i.html?_nkw=midea+portasplit",
+    "delivery_fr": "maybe",
+    "kind": "search"
+  },
+  {
+    "id": "leboncoin",
+    "name": "Leboncoin recherche Paris",
+    "country": "FR",
+    "url": "https://www.leboncoin.fr/recherche?text=midea%20portasplit&locations=Paris__48.8566_2.3522_10000_5000",
+    "delivery_fr": "local",
+    "kind": "search"
+  },
+  {
+    "id": "idealo_fr",
+    "name": "Idealo France",
+    "country": "FR",
+    "url": "https://www.idealo.fr/prix/204374464/midea-portasplit-3-5-kw.html",
+    "delivery_fr": "yes",
+    "kind": "comparator"
+  },
+  {
+    "id": "darty_fr",
+    "name": "Darty recherche",
+    "country": "FR",
+    "url": "https://www.darty.com/nav/recherche?text=midea%20portasplit",
+    "delivery_fr": "yes",
+    "kind": "search"
+  },
+  {
+    "id": "ubaldi_fr",
+    "name": "Ubaldi recherche",
+    "country": "FR",
+    "url": "https://www.ubaldi.com/recherche/midea%20portasplit.php",
+    "delivery_fr": "yes",
+    "kind": "search"
+  },
+  {
+    "id": "metro_fr",
+    "name": "Metro FR recherche",
+    "country": "FR",
+    "url": "https://www.metro.fr/search?text=midea%20portasplit",
+    "delivery_fr": "yes",
+    "kind": "search"
+  },
+  {
+    "id": "bricoprive_fr",
+    "name": "Brico Privé recherche",
+    "country": "FR",
+    "url": "https://www.bricoprive.com/recherche?q=midea%20portasplit",
+    "delivery_fr": "yes",
+    "kind": "search"
+  },
+  {
+    "id": "maxoutil_fr",
+    "name": "Maxoutil recherche",
+    "country": "FR",
+    "url": "https://www.maxoutil.com/recherche?controller=search&s=midea%20portasplit",
+    "delivery_fr": "yes",
+    "kind": "search"
+  },
+  {
+    "id": "bricodepot_fr",
+    "name": "Brico Dépôt recherche",
+    "country": "FR",
+    "url": "https://www.bricodepot.fr/catalogue/search/?text=midea%20portasplit",
+    "delivery_fr": "yes",
+    "kind": "search"
+  },
+  {
+    "id": "electrodepot_fr",
+    "name": "Electro Dépôt recherche",
+    "country": "FR",
+    "url": "https://www.electrodepot.fr/catalogsearch/result/?q=midea%20portasplit",
+    "delivery_fr": "yes",
+    "kind": "search"
+  },
+  {
+    "id": "but_fr",
+    "name": "BUT recherche",
+    "country": "FR",
+    "url": "https://www.but.fr/recherche?text=midea%20portasplit",
+    "delivery_fr": "yes",
+    "kind": "search"
+  },
+  {
+    "id": "conforama_fr",
+    "name": "Conforama recherche",
+    "country": "FR",
+    "url": "https://www.conforama.fr/recherche?text=midea%20portasplit",
+    "delivery_fr": "yes",
+    "kind": "search"
+  },
+  {
+    "id": "auchan_fr",
+    "name": "Auchan recherche",
+    "country": "FR",
+    "url": "https://www.auchan.fr/recherche?text=midea%20portasplit",
+    "delivery_fr": "yes",
+    "kind": "search"
+  },
+  {
+    "id": "carrefour_fr",
+    "name": "Carrefour recherche",
+    "country": "FR",
+    "url": "https://www.carrefour.fr/s?q=midea%20portasplit",
+    "delivery_fr": "yes",
+    "kind": "search"
+  },
+  {
+    "id": "leclerc_fr",
+    "name": "E.Leclerc recherche",
+    "country": "FR",
+    "url": "https://www.e.leclerc/recherche?text=midea%20portasplit",
+    "delivery_fr": "yes",
+    "kind": "search"
+  },
+  {
+    "id": "intermarche_fr",
+    "name": "Intermarché recherche",
+    "country": "FR",
+    "url": "https://www.intermarche.com/recherche/midea%20portasplit",
+    "delivery_fr": "yes",
+    "kind": "search"
+  },
+  {
+    "id": "laredoute_fr",
+    "name": "La Redoute recherche",
+    "country": "FR",
+    "url": "https://www.laredoute.fr/ppdp/prod-?q=midea%20portasplit",
+    "delivery_fr": "yes",
+    "kind": "search"
+  },
+  {
+    "id": "rueducommerce_fr",
+    "name": "Rue du Commerce recherche",
+    "country": "FR",
+    "url": "https://www.rueducommerce.fr/recherche/midea%20portasplit",
+    "delivery_fr": "yes",
+    "kind": "search"
+  },
+  {
+    "id": "ldlc_fr",
+    "name": "LDLC recherche",
+    "country": "FR",
+    "url": "https://www.ldlc.com/recherche/midea%20portasplit/",
+    "delivery_fr": "yes",
+    "kind": "search"
+  },
+  {
+    "id": "materiel_net_fr",
+    "name": "Materiel.net recherche",
+    "country": "FR",
+    "url": "https://www.materiel.net/recherche/midea%20portasplit/",
+    "delivery_fr": "yes",
+    "kind": "search"
+  },
+  {
+    "id": "coolblue_fr",
+    "name": "Coolblue France recherche",
+    "country": "FR/NL/BE",
+    "url": "https://www.coolblue.fr/recherche?query=midea%20portasplit",
+    "delivery_fr": "yes",
+    "kind": "search"
+  },
+  {
+    "id": "coolblue_be",
+    "name": "Coolblue Belgique recherche",
+    "country": "BE",
+    "url": "https://www.coolblue.be/fr/recherche?query=midea%20portasplit",
+    "delivery_fr": "maybe",
+    "kind": "search"
+  },
+  {
+    "id": "bol_nl",
+    "name": "Bol.com recherche",
+    "country": "NL/BE",
+    "url": "https://www.bol.com/nl/nl/s/?searchtext=midea%20portasplit",
+    "delivery_fr": "maybe",
+    "kind": "search"
+  },
+  {
+    "id": "gamma_nl",
+    "name": "Gamma NL recherche",
+    "country": "NL",
+    "url": "https://www.gamma.nl/assortiment/zoeken?text=midea%20portasplit",
+    "delivery_fr": "maybe",
+    "kind": "search"
+  },
+  {
+    "id": "praxis_nl",
+    "name": "Praxis NL recherche",
+    "country": "NL",
+    "url": "https://www.praxis.nl/search?text=midea%20portasplit",
+    "delivery_fr": "maybe",
+    "kind": "search"
+  },
+  {
+    "id": "hubo_be",
+    "name": "Hubo Belgique recherche",
+    "country": "BE",
+    "url": "https://www.hubo.be/fr/recherche.html?text=midea%20portasplit",
+    "delivery_fr": "maybe",
+    "kind": "search"
+  },
+  {
+    "id": "brico_be",
+    "name": "Brico Belgique recherche",
+    "country": "BE",
+    "url": "https://www.brico.be/fr/search?text=midea%20portasplit",
+    "delivery_fr": "maybe",
+    "kind": "search"
+  },
+  {
+    "id": "mediamarkt_es",
+    "name": "MediaMarkt ES recherche",
+    "country": "ES",
+    "url": "https://www.mediamarkt.es/es/search.html?query=midea%20portasplit",
+    "delivery_fr": "maybe",
+    "kind": "search"
+  },
+  {
+    "id": "leroymerlin_es",
+    "name": "Leroy Merlin ES recherche",
+    "country": "ES",
+    "url": "https://www.leroymerlin.es/search?q=midea%20portasplit",
+    "delivery_fr": "maybe",
+    "kind": "search"
+  },
+  {
+    "id": "carrefour_es",
+    "name": "Carrefour ES recherche",
+    "country": "ES",
+    "url": "https://www.carrefour.es/?q=midea%20portasplit",
+    "delivery_fr": "maybe",
+    "kind": "search"
+  },
+  {
+    "id": "mediamarkt_it",
+    "name": "MediaWorld IT recherche",
+    "country": "IT",
+    "url": "https://www.mediaworld.it/it/search.html?query=midea%20portasplit",
+    "delivery_fr": "maybe",
+    "kind": "search"
+  },
+  {
+    "id": "leroymerlin_it",
+    "name": "Leroy Merlin IT recherche",
+    "country": "IT",
+    "url": "https://www.leroymerlin.it/ricerca?q=midea%20portasplit",
+    "delivery_fr": "maybe",
+    "kind": "search"
+  },
+  {
+    "id": "joybuy",
+    "name": "Joybuy recherche",
+    "country": "CN/EU",
+    "url": "https://www.joybuy.com/search?keywords=midea%20portasplit",
+    "delivery_fr": "maybe",
+    "kind": "search"
+  },
+  {
+    "id": "aliexpress",
+    "name": "AliExpress recherche",
+    "country": "CN/EU",
+    "url": "https://www.aliexpress.com/wholesale?SearchText=midea+portasplit",
+    "delivery_fr": "maybe",
+    "kind": "search"
+  }
+]
