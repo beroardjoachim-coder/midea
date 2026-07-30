@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-07-30T07:12:42+00:00",
+  "checked_at": "2026-07-30T09:43:44+00:00",
   "sites_count": 68,
   "alerts_sent": [],
   "results": [
@@ -8,7 +8,7 @@
       "name": "Amazon FR",
       "country": "FR",
       "url": "https://www.amazon.fr/dp/B0CY2YW8BT",
-      "checked_at": "2026-07-30T07:11:33+00:00",
+      "checked_at": "2026-07-30T09:42:23+00:00",
       "status": "wrong_product_or_unclear",
       "alertable": false,
       "product_ok": false,
@@ -35,7 +35,7 @@
       "name": "Amazon DE",
       "country": "DE",
       "url": "https://www.amazon.de/dp/B0CY2YW8BT",
-      "checked_at": "2026-07-30T07:11:32+00:00",
+      "checked_at": "2026-07-30T09:42:23+00:00",
       "status": "wrong_product_or_unclear",
       "alertable": false,
       "product_ok": false,
@@ -62,7 +62,7 @@
       "name": "Amazon ES",
       "country": "ES",
       "url": "https://www.amazon.es/dp/B0CY2YW8BT",
-      "checked_at": "2026-07-30T07:11:32+00:00",
+      "checked_at": "2026-07-30T09:42:23+00:00",
       "status": "wrong_product_or_unclear",
       "alertable": false,
       "product_ok": false,
@@ -89,8 +89,51 @@
       "name": "Amazon IT",
       "country": "IT",
       "url": "https://www.amazon.it/dp/B0CY2YW8BT",
-      "checked_at": "2026-07-30T07:11:33+00:00",
-      "status": "wrong_product_or_unclear",
+      "checked_at": "2026-07-30T09:42:23+00:00",
+      "status": "unavailable",
+      "alertable": false,
+      "product_ok": true,
+      "delivery_status": "positive",
+      "score": 4,
+      "price": "",
+      "exact_hits": [
+        "midea"
+      ],
+      "model_hits": [
+        "portasplit",
+        "12000 btu"
+      ],
+      "excluded_hits": [],
+      "available_hits": [
+        "disponibile",
+        "acquista"
+      ],
+      "unavailable_hits": [
+        "non disponibile"
+      ],
+      "delivery_positive_hits": [
+        "spedizione",
+        "consegna"
+      ],
+      "delivery_negative_hits": [],
+      "enabled_buy_buttons": 0,
+      "reasons": [
+        "produit exact probable",
+        "signaux dispo: disponibile, acquista",
+        "signaux rupture: non disponibile",
+        "signaux livraison: spedizione, consegna"
+      ],
+      "error": "",
+      "fingerprint": "33619ffc30b3458c55e2c7563469055c0e7518b0e88cd2ac12be4507e5e90cda",
+      "last_alert": null
+    },
+    {
+      "id": "amazon_nl",
+      "name": "Amazon NL",
+      "country": "NL/EU",
+      "url": "https://www.amazon.nl/s?k=midea+portasplit",
+      "checked_at": "2026-07-30T09:42:23+00:00",
+      "status": "error",
       "alertable": false,
       "product_ok": false,
       "delivery_status": "unknown",
@@ -105,57 +148,11 @@
       "delivery_negative_hits": [],
       "enabled_buy_buttons": 0,
       "reasons": [
-        "produit exact non confirmé"
+        "produit exact non confirmé",
+        "Error('Page.goto: Download is starting\\nCall log:\\n  - navigating to \"https://www.amazon.nl/s?k=midea+portasplit\", waiting until \"domcontentloaded\"\\n')"
       ],
-      "error": "",
-      "fingerprint": "e21fd2e4d73a8c3623e8398e326ec6e00fbfaca270988078faf8f26d3d2b2844",
-      "last_alert": null
-    },
-    {
-      "id": "amazon_nl",
-      "name": "Amazon NL",
-      "country": "NL/EU",
-      "url": "https://www.amazon.nl/s?k=midea+portasplit",
-      "checked_at": "2026-07-30T07:11:36+00:00",
-      "status": "unknown",
-      "alertable": false,
-      "product_ok": true,
-      "delivery_status": "positive",
-      "score": 4,
-      "price": "899,95€",
-      "exact_hits": [
-        "midea"
-      ],
-      "model_hits": [
-        "portasplit",
-        "porta split",
-        "12000 btu"
-      ],
-      "excluded_hits": [
-        "accessoire",
-        "filter"
-      ],
-      "available_hits": [
-        "winkelwagen",
-        "in winkelwagen",
-        "op voorraad"
-      ],
-      "unavailable_hits": [],
-      "delivery_positive_hits": [
-        "bezorging",
-        "levering"
-      ],
-      "delivery_negative_hits": [],
-      "enabled_buy_buttons": 42,
-      "reasons": [
-        "produit exact probable",
-        "prix détecté: 899,95€",
-        "signaux dispo: winkelwagen, in winkelwagen, op voorraad",
-        "signaux livraison: bezorging, levering",
-        "boutons achat actifs: 42"
-      ],
-      "error": "",
-      "fingerprint": "35afffcdfb7be4852fa5a33fa81506094cc39a8ef2397f1ae627f92d0b173967",
+      "error": "Error('Page.goto: Download is starting\\nCall log:\\n  - navigating to \"https://www.amazon.nl/s?k=midea+portasplit\", waiting until \"domcontentloaded\"\\n')",
+      "fingerprint": "2a64bfefed2ac24b4663bfd35461ebcec2852202910448dbe4ef0ab5ac4d97e8",
       "last_alert": null
     },
     {
@@ -163,7 +160,7 @@
       "name": "Castorama France",
       "country": "FR",
       "url": "https://www.castorama.fr/climatiseur-portasplit-midea-reversible-3500w/8431312260509_CAFR.prd",
-      "checked_at": "2026-07-30T07:11:38+00:00",
+      "checked_at": "2026-07-30T09:42:26+00:00",
       "status": "unknown",
       "alertable": false,
       "product_ok": true,
@@ -184,7 +181,8 @@
       ],
       "available_hits": [
         "ajouter au panier",
-        "au panier"
+        "au panier",
+        "disponible"
       ],
       "unavailable_hits": [],
       "delivery_positive_hits": [
@@ -198,7 +196,7 @@
       "reasons": [
         "produit exact probable",
         "prix détecté: 999€",
-        "signaux dispo: ajouter au panier, au panier",
+        "signaux dispo: ajouter au panier, au panier, disponible",
         "signaux livraison: livraison, livraison à domicile, expédié, france"
       ],
       "error": "",
@@ -210,7 +208,7 @@
       "name": "Leroy Merlin France",
       "country": "FR",
       "url": "https://www.leroymerlin.fr/produits/climatiseur-split-mobile-reversible-portasplit-midea-par-optimea-93857579.html",
-      "checked_at": "2026-07-30T07:11:35+00:00",
+      "checked_at": "2026-07-30T09:42:25+00:00",
       "status": "wrong_product_or_unclear",
       "alertable": false,
       "product_ok": false,
@@ -237,7 +235,7 @@
       "name": "Boulanger France",
       "country": "FR",
       "url": "https://www.boulanger.com/ref/1216685",
-      "checked_at": "2026-07-30T07:11:35+00:00",
+      "checked_at": "2026-07-30T09:42:26+00:00",
       "status": "wrong_product_or_unclear",
       "alertable": false,
       "product_ok": false,
@@ -264,7 +262,7 @@
       "name": "Fnac France",
       "country": "FR",
       "url": "https://www.fnac.com/MIDEA-Climatiseur-Split-Mobile-Reversible-Froid-Chaud-3500W-12000BTU-WiFi-deshumidificateur-ventilateur-jusqu-a-40m2-kit-fenetre-inclus/a21457105/w-4",
-      "checked_at": "2026-07-30T07:11:38+00:00",
+      "checked_at": "2026-07-30T09:42:26+00:00",
       "status": "wrong_product_or_unclear",
       "alertable": false,
       "product_ok": false,
@@ -291,7 +289,7 @@
       "name": "ManoMano France",
       "country": "FR",
       "url": "https://www.manomano.fr/p/midea-climatiseur-split-mobile-reversible-froid-chaud-3500w12000btu-wifi-deshumidificateur-ventilateur-jusqua-40m2-kit-fenetre-inclus-83810402",
-      "checked_at": "2026-07-30T07:11:38+00:00",
+      "checked_at": "2026-07-30T09:42:28+00:00",
       "status": "wrong_product_or_unclear",
       "alertable": false,
       "product_ok": false,
@@ -318,7 +316,7 @@
       "name": "Galaxus France",
       "country": "FR",
       "url": "https://www.galaxus.fr/fr/s2/product/midea-porta-split-42-m-12000-btuh-climatiseur-40851329",
-      "checked_at": "2026-07-30T07:11:36+00:00",
+      "checked_at": "2026-07-30T09:42:26+00:00",
       "status": "error",
       "alertable": false,
       "product_ok": false,
@@ -346,7 +344,7 @@
       "name": "PAC Store France",
       "country": "FR",
       "url": "https://www.pac-store.fr/boutique/MIDEA-Climatiseur-mobile-PortaSplit-3-5-kW-R32-p671790674",
-      "checked_at": "2026-07-30T07:11:41+00:00",
+      "checked_at": "2026-07-30T09:42:30+00:00",
       "status": "wrong_product_or_unclear",
       "alertable": false,
       "product_ok": false,
@@ -382,7 +380,7 @@
       "name": "GroupSumi France",
       "country": "FR/EU",
       "url": "https://groupsumi.fr/chauffage/climatisation/climatiseur-mobile/climatiseur-et-deshumidificateur-portable-4-en-1-midea-portasplit-3-5-kw-13907811",
-      "checked_at": "2026-07-30T07:11:43+00:00",
+      "checked_at": "2026-07-30T09:42:31+00:00",
       "status": "unknown",
       "alertable": false,
       "product_ok": true,
@@ -435,7 +433,7 @@
       "name": "tado Shop EU",
       "country": "EU",
       "url": "https://shop.tado.com/en/products/midea-portasplit-mobile-split-air-conditioner-3-5-kw",
-      "checked_at": "2026-07-30T07:11:41+00:00",
+      "checked_at": "2026-07-30T09:42:29+00:00",
       "status": "wrong_product_or_unclear",
       "alertable": false,
       "product_ok": false,
@@ -462,7 +460,7 @@
       "name": "Midea Luxembourg",
       "country": "LU",
       "url": "https://www.midea.lu/climatiseur-portasplit-midea-12000-btu/",
-      "checked_at": "2026-07-30T07:11:59+00:00",
+      "checked_at": "2026-07-30T09:42:48+00:00",
       "status": "error",
       "alertable": false,
       "product_ok": false,
@@ -490,7 +488,7 @@
       "name": "OBI Allemagne",
       "country": "DE",
       "url": "https://www.obi.de/p/8620890/midea-mobile-split-klimaanlage-portasplit",
-      "checked_at": "2026-07-30T07:11:45+00:00",
+      "checked_at": "2026-07-30T09:42:33+00:00",
       "status": "unknown",
       "alertable": false,
       "product_ok": true,
@@ -541,7 +539,7 @@
       "name": "Bauhaus Allemagne",
       "country": "DE",
       "url": "https://www.bauhaus.info/klimaanlagen/midea-klimasplitgeraet-portasplit-12000-btu/p/31934233",
-      "checked_at": "2026-07-30T07:11:44+00:00",
+      "checked_at": "2026-07-30T09:42:33+00:00",
       "status": "wrong_product_or_unclear",
       "alertable": false,
       "product_ok": false,
@@ -568,7 +566,7 @@
       "name": "Hornbach Allemagne",
       "country": "DE",
       "url": "https://www.hornbach.de/suche/sortiment/midea%20portasplit",
-      "checked_at": "2026-07-30T07:11:46+00:00",
+      "checked_at": "2026-07-30T09:42:34+00:00",
       "status": "wrong_product_or_unclear",
       "alertable": false,
       "product_ok": false,
@@ -601,7 +599,7 @@
       "name": "Toom Allemagne",
       "country": "DE",
       "url": "https://toom.de/suche/?search=midea%20portasplit",
-      "checked_at": "2026-07-30T07:11:48+00:00",
+      "checked_at": "2026-07-30T09:42:38+00:00",
       "status": "wrong_product_or_unclear",
       "alertable": false,
       "product_ok": false,
@@ -634,7 +632,7 @@
       "name": "Kaufland Allemagne",
       "country": "DE",
       "url": "https://www.kaufland.de/s/?search_value=midea%20portasplit",
-      "checked_at": "2026-07-30T07:11:48+00:00",
+      "checked_at": "2026-07-30T09:42:37+00:00",
       "status": "wrong_product_or_unclear",
       "alertable": false,
       "product_ok": false,
@@ -661,7 +659,7 @@
       "name": "Alternate Allemagne",
       "country": "DE",
       "url": "https://www.alternate.de/Midea/PortaSplit-Klimager%C3%A4t/html/product/100144936",
-      "checked_at": "2026-07-30T07:11:50+00:00",
+      "checked_at": "2026-07-30T09:42:37+00:00",
       "status": "unknown",
       "alertable": false,
       "product_ok": true,
@@ -698,7 +696,7 @@
       "name": "Entratek Allemagne",
       "country": "DE",
       "url": "https://www.entratek-shop.de/p/midea-portasplit-klimaanlage-mobile-waermepumpe-kuehlen-a-heizen-a-12000-btu-3-5kw",
-      "checked_at": "2026-07-30T07:11:52+00:00",
+      "checked_at": "2026-07-30T09:42:41+00:00",
       "status": "available",
       "alertable": false,
       "product_ok": true,
@@ -742,7 +740,7 @@
       "name": "Raleo Allemagne",
       "country": "DE",
       "url": "https://raleo.de/item/klima/midea-porta-split-klimageraet-3-500w-eek-a-portasplit/",
-      "checked_at": "2026-07-30T07:11:51+00:00",
+      "checked_at": "2026-07-30T09:42:40+00:00",
       "status": "wrong_product_or_unclear",
       "alertable": false,
       "product_ok": false,
@@ -769,7 +767,7 @@
       "name": "Idealo Allemagne",
       "country": "DE",
       "url": "https://www.idealo.de/preisvergleich/OffersOfProduct/204374464_-portasplit-3-5-kw-midea.html",
-      "checked_at": "2026-07-30T07:11:52+00:00",
+      "checked_at": "2026-07-30T09:42:40+00:00",
       "status": "wrong_product_or_unclear",
       "alertable": false,
       "product_ok": false,
@@ -796,7 +794,7 @@
       "name": "Geizhals DE/AT",
       "country": "DE/AT",
       "url": "https://geizhals.de/midea-comfee-porta-split-a3201826.html",
-      "checked_at": "2026-07-30T07:11:55+00:00",
+      "checked_at": "2026-07-30T09:42:44+00:00",
       "status": "unknown",
       "alertable": false,
       "product_ok": true,
@@ -810,8 +808,7 @@
         "portasplit",
         "12000 btu",
         "12.000 btu",
-        "3,5 kw",
-        "3500 w"
+        "3,5 kw"
       ],
       "excluded_hits": [
         "filter"
@@ -845,13 +842,13 @@
       "name": "Otto DE recherche",
       "country": "DE",
       "url": "https://www.otto.de/suche/midea%20portasplit/",
-      "checked_at": "2026-07-30T07:12:00+00:00",
+      "checked_at": "2026-07-30T09:42:47+00:00",
       "status": "unavailable",
       "alertable": false,
       "product_ok": true,
       "delivery_status": "positive",
       "score": -2,
-      "price": "785,00€",
+      "price": "969,00€",
       "exact_hits": [
         "midea"
       ],
@@ -865,7 +862,6 @@
         "filter"
       ],
       "available_hits": [
-        "en stock",
         "lieferbar"
       ],
       "unavailable_hits": [
@@ -879,13 +875,13 @@
       "enabled_buy_buttons": 0,
       "reasons": [
         "produit exact probable",
-        "prix détecté: 785,00€",
-        "signaux dispo: en stock, lieferbar",
+        "prix détecté: 969,00€",
+        "signaux dispo: lieferbar",
         "signaux rupture: ausverkauft",
         "signaux livraison: versand, lieferung"
       ],
       "error": "",
-      "fingerprint": "076108dca21cf2823b8780783f0c3e46f102f3a7421e566f7baed27cac9407dd",
+      "fingerprint": "b95c28089f66a5b78ffedb9e57d9d0a5065b99f6a258044a7bc8a9035be9908f",
       "last_alert": null
     },
     {
@@ -893,7 +889,7 @@
       "name": "Computeruniverse DE recherche",
       "country": "DE",
       "url": "https://www.computeruniverse.net/de/search?query=midea%20portasplit",
-      "checked_at": "2026-07-30T07:11:55+00:00",
+      "checked_at": "2026-07-30T09:42:44+00:00",
       "status": "wrong_product_or_unclear",
       "alertable": false,
       "product_ok": false,
@@ -920,7 +916,7 @@
       "name": "Expert DE recherche",
       "country": "DE",
       "url": "https://www.expert.de/search?query=midea%20portasplit",
-      "checked_at": "2026-07-30T07:12:01+00:00",
+      "checked_at": "2026-07-30T09:42:50+00:00",
       "status": "wrong_product_or_unclear",
       "alertable": false,
       "product_ok": false,
@@ -954,7 +950,7 @@
       "name": "MediaMarkt DE recherche",
       "country": "DE",
       "url": "https://www.mediamarkt.de/de/search.html?query=midea%20portasplit",
-      "checked_at": "2026-07-30T07:11:59+00:00",
+      "checked_at": "2026-07-30T09:42:48+00:00",
       "status": "wrong_product_or_unclear",
       "alertable": false,
       "product_ok": false,
@@ -981,7 +977,7 @@
       "name": "Saturn DE recherche",
       "country": "DE",
       "url": "https://www.saturn.de/de/search.html?query=midea%20portasplit",
-      "checked_at": "2026-07-30T07:12:02+00:00",
+      "checked_at": "2026-07-30T09:42:51+00:00",
       "status": "wrong_product_or_unclear",
       "alertable": false,
       "product_ok": false,
@@ -1008,7 +1004,7 @@
       "name": "Conrad DE recherche",
       "country": "DE",
       "url": "https://www.conrad.de/de/search.html?search=midea%20portasplit",
-      "checked_at": "2026-07-30T07:12:02+00:00",
+      "checked_at": "2026-07-30T09:42:50+00:00",
       "status": "wrong_product_or_unclear",
       "alertable": false,
       "product_ok": false,
@@ -1035,7 +1031,7 @@
       "name": "Globus Baumarkt DE recherche",
       "country": "DE",
       "url": "https://www.globus-baumarkt.de/search?sSearch=midea%20portasplit",
-      "checked_at": "2026-07-30T07:12:05+00:00",
+      "checked_at": "2026-07-30T09:42:53+00:00",
       "status": "wrong_product_or_unclear",
       "alertable": false,
       "product_ok": false,
@@ -1075,7 +1071,7 @@
       "name": "Cdiscount recherche",
       "country": "FR",
       "url": "https://www.cdiscount.com/search/10/midea+portasplit.html",
-      "checked_at": "2026-07-30T07:12:05+00:00",
+      "checked_at": "2026-07-30T09:42:54+00:00",
       "status": "unknown",
       "alertable": false,
       "product_ok": true,
@@ -1116,37 +1112,26 @@
       "name": "Rakuten recherche",
       "country": "FR",
       "url": "https://fr.shopping.rakuten.com/search/midea+portasplit",
-      "checked_at": "2026-07-30T07:12:05+00:00",
+      "checked_at": "2026-07-30T09:42:53+00:00",
       "status": "wrong_product_or_unclear",
       "alertable": false,
       "product_ok": false,
-      "delivery_status": "positive",
-      "score": -5,
+      "delivery_status": "assumed_ok",
+      "score": 1,
       "price": "",
-      "exact_hits": [
-        "midea"
-      ],
-      "model_hits": [
-        "portasplit"
-      ],
-      "excluded_hits": [
-        "filtre"
-      ],
+      "exact_hits": [],
+      "model_hits": [],
+      "excluded_hits": [],
       "available_hits": [],
       "unavailable_hits": [],
-      "delivery_positive_hits": [
-        "livraison",
-        "expédié",
-        "france"
-      ],
+      "delivery_positive_hits": [],
       "delivery_negative_hits": [],
       "enabled_buy_buttons": 0,
       "reasons": [
-        "produit exact non confirmé",
-        "signaux livraison: livraison, expédié, france"
+        "produit exact non confirmé"
       ],
       "error": "",
-      "fingerprint": "c08144b503dae35ebd381b4d76b135002b650315b13d3d996fdc1a291686858d",
+      "fingerprint": "56917b14caa77e7288312257e9fdd0770b2ec5c48019dcb64fdd4e0b48120dba",
       "last_alert": null
     },
     {
@@ -1154,7 +1139,7 @@
       "name": "eBay France recherche",
       "country": "FR/EU",
       "url": "https://www.ebay.fr/sch/i.html?_nkw=midea+portasplit",
-      "checked_at": "2026-07-30T07:12:05+00:00",
+      "checked_at": "2026-07-30T09:42:54+00:00",
       "status": "wrong_product_or_unclear",
       "alertable": false,
       "product_ok": false,
@@ -1181,7 +1166,7 @@
       "name": "Leboncoin recherche Paris",
       "country": "FR",
       "url": "https://www.leboncoin.fr/recherche?text=midea%20portasplit&locations=Paris__48.8566_2.3522_10000_5000",
-      "checked_at": "2026-07-30T07:12:07+00:00",
+      "checked_at": "2026-07-30T09:42:56+00:00",
       "status": "wrong_product_or_unclear",
       "alertable": false,
       "product_ok": false,
@@ -1208,7 +1193,7 @@
       "name": "Idealo France",
       "country": "FR",
       "url": "https://www.idealo.fr/prix/204374464/midea-portasplit-3-5-kw.html",
-      "checked_at": "2026-07-30T07:12:08+00:00",
+      "checked_at": "2026-07-30T09:42:56+00:00",
       "status": "wrong_product_or_unclear",
       "alertable": false,
       "product_ok": false,
@@ -1235,7 +1220,7 @@
       "name": "Darty recherche",
       "country": "FR",
       "url": "https://www.darty.com/nav/recherche?text=midea%20portasplit",
-      "checked_at": "2026-07-30T07:12:08+00:00",
+      "checked_at": "2026-07-30T09:42:56+00:00",
       "status": "wrong_product_or_unclear",
       "alertable": false,
       "product_ok": false,
@@ -1262,7 +1247,7 @@
       "name": "Ubaldi recherche",
       "country": "FR",
       "url": "https://www.ubaldi.com/recherche/midea%20portasplit.php",
-      "checked_at": "2026-07-30T07:12:08+00:00",
+      "checked_at": "2026-07-30T09:42:56+00:00",
       "status": "wrong_product_or_unclear",
       "alertable": false,
       "product_ok": false,
@@ -1289,7 +1274,7 @@
       "name": "Metro FR recherche",
       "country": "FR",
       "url": "https://www.metro.fr/search?text=midea%20portasplit",
-      "checked_at": "2026-07-30T07:12:10+00:00",
+      "checked_at": "2026-07-30T09:42:58+00:00",
       "status": "wrong_product_or_unclear",
       "alertable": false,
       "product_ok": false,
@@ -1316,7 +1301,7 @@
       "name": "Brico Privé recherche",
       "country": "FR",
       "url": "https://www.bricoprive.com/recherche?q=midea%20portasplit",
-      "checked_at": "2026-07-30T07:12:08+00:00",
+      "checked_at": "2026-07-30T09:42:56+00:00",
       "status": "error",
       "alertable": false,
       "product_ok": false,
@@ -1344,7 +1329,7 @@
       "name": "Maxoutil recherche",
       "country": "FR",
       "url": "https://www.maxoutil.com/recherche?controller=search&s=midea%20portasplit",
-      "checked_at": "2026-07-30T07:12:14+00:00",
+      "checked_at": "2026-07-30T09:43:01+00:00",
       "status": "wrong_product_or_unclear",
       "alertable": false,
       "product_ok": false,
@@ -1379,7 +1364,7 @@
       "name": "Brico Dépôt recherche",
       "country": "FR",
       "url": "https://www.bricodepot.fr/catalogue/search/?text=midea%20portasplit",
-      "checked_at": "2026-07-30T07:12:11+00:00",
+      "checked_at": "2026-07-30T09:43:00+00:00",
       "status": "error",
       "alertable": false,
       "product_ok": false,
@@ -1407,27 +1392,48 @@
       "name": "Electro Dépôt recherche",
       "country": "FR",
       "url": "https://www.electrodepot.fr/catalogsearch/result/?q=midea%20portasplit",
-      "checked_at": "2026-07-30T07:12:38+00:00",
-      "status": "error",
+      "checked_at": "2026-07-30T09:43:00+00:00",
+      "status": "wrong_product_or_unclear",
       "alertable": false,
       "product_ok": false,
-      "delivery_status": "assumed_ok",
-      "score": 1,
-      "price": "",
-      "exact_hits": [],
-      "model_hits": [],
-      "excluded_hits": [],
-      "available_hits": [],
+      "delivery_status": "positive",
+      "score": -1,
+      "price": "399€",
+      "exact_hits": [
+        "midea"
+      ],
+      "model_hits": [
+        "portasplit"
+      ],
+      "excluded_hits": [
+        "télécommande",
+        "telecommande",
+        "accessoire",
+        "tuyau",
+        "filtre",
+        "filter"
+      ],
+      "available_hits": [
+        "ajouter au panier",
+        "au panier",
+        "disponible"
+      ],
       "unavailable_hits": [],
-      "delivery_positive_hits": [],
+      "delivery_positive_hits": [
+        "livraison",
+        "france"
+      ],
       "delivery_negative_hits": [],
-      "enabled_buy_buttons": 0,
+      "enabled_buy_buttons": 2,
       "reasons": [
         "produit exact non confirmé",
-        "TimeoutError('Page.goto: Timeout 30000ms exceeded.\\nCall log:\\n  - navigating to \"https://www.electrodepot.fr/catalogsearch/result/?q=midea%20portasplit\", waiting until \"domcontentloaded\"\\n')"
+        "prix détecté: 399€",
+        "signaux dispo: ajouter au panier, au panier, disponible",
+        "signaux livraison: livraison, france",
+        "boutons achat actifs: 2"
       ],
-      "error": "TimeoutError('Page.goto: Timeout 30000ms exceeded.\\nCall log:\\n  - navigating to \"https://www.electrodepot.fr/catalogsearch/result/?q=midea%20portasplit\", waiting until \"domcontentloaded\"\\n')",
-      "fingerprint": "9e7c4be1c8c3d80074201ab963eae6a0e7ba8c0077f0be1b4d72391ff2623eea",
+      "error": "",
+      "fingerprint": "a15f7a878debd34df1db8ecfd769db37bab630457b4664f579077a89009b7c72",
       "last_alert": null
     },
     {
@@ -1435,7 +1441,7 @@
       "name": "BUT recherche",
       "country": "FR",
       "url": "https://www.but.fr/recherche?text=midea%20portasplit",
-      "checked_at": "2026-07-30T07:12:13+00:00",
+      "checked_at": "2026-07-30T09:43:01+00:00",
       "status": "wrong_product_or_unclear",
       "alertable": false,
       "product_ok": false,
@@ -1462,7 +1468,7 @@
       "name": "Conforama recherche",
       "country": "FR",
       "url": "https://www.conforama.fr/recherche?text=midea%20portasplit",
-      "checked_at": "2026-07-30T07:12:14+00:00",
+      "checked_at": "2026-07-30T09:43:02+00:00",
       "status": "wrong_product_or_unclear",
       "alertable": false,
       "product_ok": false,
@@ -1489,7 +1495,7 @@
       "name": "Auchan recherche",
       "country": "FR",
       "url": "https://www.auchan.fr/recherche?text=midea%20portasplit",
-      "checked_at": "2026-07-30T07:12:18+00:00",
+      "checked_at": "2026-07-30T09:43:04+00:00",
       "status": "wrong_product_or_unclear",
       "alertable": false,
       "product_ok": false,
@@ -1536,7 +1542,7 @@
       "name": "Carrefour recherche",
       "country": "FR",
       "url": "https://www.carrefour.fr/s?q=midea%20portasplit",
-      "checked_at": "2026-07-30T07:12:17+00:00",
+      "checked_at": "2026-07-30T09:43:09+00:00",
       "status": "wrong_product_or_unclear",
       "alertable": false,
       "product_ok": false,
@@ -1563,7 +1569,7 @@
       "name": "E.Leclerc recherche",
       "country": "FR",
       "url": "https://www.e.leclerc/recherche?text=midea%20portasplit",
-      "checked_at": "2026-07-30T07:12:18+00:00",
+      "checked_at": "2026-07-30T09:43:05+00:00",
       "status": "wrong_product_or_unclear",
       "alertable": false,
       "product_ok": false,
@@ -1595,7 +1601,7 @@
       "name": "Intermarché recherche",
       "country": "FR",
       "url": "https://www.intermarche.com/recherche/midea%20portasplit",
-      "checked_at": "2026-07-30T07:12:19+00:00",
+      "checked_at": "2026-07-30T09:43:06+00:00",
       "status": "wrong_product_or_unclear",
       "alertable": false,
       "product_ok": false,
@@ -1622,7 +1628,7 @@
       "name": "La Redoute recherche",
       "country": "FR",
       "url": "https://www.laredoute.fr/ppdp/prod-?q=midea%20portasplit",
-      "checked_at": "2026-07-30T07:12:20+00:00",
+      "checked_at": "2026-07-30T09:43:07+00:00",
       "status": "wrong_product_or_unclear",
       "alertable": false,
       "product_ok": false,
@@ -1649,45 +1655,27 @@
       "name": "Rue du Commerce recherche",
       "country": "FR",
       "url": "https://www.rueducommerce.fr/recherche/midea%20portasplit",
-      "checked_at": "2026-07-30T07:12:23+00:00",
-      "status": "wrong_product_or_unclear",
+      "checked_at": "2026-07-30T09:43:35+00:00",
+      "status": "error",
       "alertable": false,
       "product_ok": false,
-      "delivery_status": "positive",
-      "score": -1,
+      "delivery_status": "assumed_ok",
+      "score": 1,
       "price": "",
-      "exact_hits": [
-        "midea"
-      ],
-      "model_hits": [
-        "portasplit"
-      ],
-      "excluded_hits": [
-        "télécommande",
-        "accessoire",
-        "tuyau",
-        "filtre"
-      ],
-      "available_hits": [
-        "ajouter au panier",
-        "au panier",
-        "disponible",
-        "en stock"
-      ],
+      "exact_hits": [],
+      "model_hits": [],
+      "excluded_hits": [],
+      "available_hits": [],
       "unavailable_hits": [],
-      "delivery_positive_hits": [
-        "livraison"
-      ],
+      "delivery_positive_hits": [],
       "delivery_negative_hits": [],
-      "enabled_buy_buttons": 48,
+      "enabled_buy_buttons": 0,
       "reasons": [
         "produit exact non confirmé",
-        "signaux dispo: ajouter au panier, au panier, disponible, en stock",
-        "signaux livraison: livraison",
-        "boutons achat actifs: 48"
+        "TimeoutError('Page.goto: Timeout 30000ms exceeded.\\nCall log:\\n  - navigating to \"https://www.rueducommerce.fr/recherche/midea%20portasplit\", waiting until \"domcontentloaded\"\\n')"
       ],
-      "error": "",
-      "fingerprint": "c08144b503dae35ebd381b4d76b135002b650315b13d3d996fdc1a291686858d",
+      "error": "TimeoutError('Page.goto: Timeout 30000ms exceeded.\\nCall log:\\n  - navigating to \"https://www.rueducommerce.fr/recherche/midea%20portasplit\", waiting until \"domcontentloaded\"\\n')",
+      "fingerprint": "9e7c4be1c8c3d80074201ab963eae6a0e7ba8c0077f0be1b4d72391ff2623eea",
       "last_alert": null
     },
     {
@@ -1695,33 +1683,27 @@
       "name": "LDLC recherche",
       "country": "FR",
       "url": "https://www.ldlc.com/recherche/midea%20portasplit/",
-      "checked_at": "2026-07-30T07:12:25+00:00",
-      "status": "wrong_product_or_unclear",
+      "checked_at": "2026-07-30T09:43:36+00:00",
+      "status": "error",
       "alertable": false,
       "product_ok": false,
-      "delivery_status": "positive",
+      "delivery_status": "assumed_ok",
       "score": 1,
       "price": "",
-      "exact_hits": [
-        "midea"
-      ],
-      "model_hits": [
-        "portasplit"
-      ],
+      "exact_hits": [],
+      "model_hits": [],
       "excluded_hits": [],
       "available_hits": [],
       "unavailable_hits": [],
-      "delivery_positive_hits": [
-        "livraison"
-      ],
+      "delivery_positive_hits": [],
       "delivery_negative_hits": [],
       "enabled_buy_buttons": 0,
       "reasons": [
         "produit exact non confirmé",
-        "signaux livraison: livraison"
+        "TimeoutError('Page.goto: Timeout 30000ms exceeded.\\nCall log:\\n  - navigating to \"https://www.ldlc.com/recherche/midea%20portasplit/\", waiting until \"domcontentloaded\"\\n')"
       ],
-      "error": "",
-      "fingerprint": "c08144b503dae35ebd381b4d76b135002b650315b13d3d996fdc1a291686858d",
+      "error": "TimeoutError('Page.goto: Timeout 30000ms exceeded.\\nCall log:\\n  - navigating to \"https://www.ldlc.com/recherche/midea%20portasplit/\", waiting until \"domcontentloaded\"\\n')",
+      "fingerprint": "9e7c4be1c8c3d80074201ab963eae6a0e7ba8c0077f0be1b4d72391ff2623eea",
       "last_alert": null
     },
     {
@@ -1729,33 +1711,27 @@
       "name": "Materiel.net recherche",
       "country": "FR",
       "url": "https://www.materiel.net/recherche/midea%20portasplit/",
-      "checked_at": "2026-07-30T07:12:25+00:00",
-      "status": "wrong_product_or_unclear",
+      "checked_at": "2026-07-30T09:43:37+00:00",
+      "status": "error",
       "alertable": false,
       "product_ok": false,
-      "delivery_status": "positive",
+      "delivery_status": "assumed_ok",
       "score": 1,
       "price": "",
-      "exact_hits": [
-        "midea"
-      ],
-      "model_hits": [
-        "portasplit"
-      ],
+      "exact_hits": [],
+      "model_hits": [],
       "excluded_hits": [],
       "available_hits": [],
       "unavailable_hits": [],
-      "delivery_positive_hits": [
-        "livraison"
-      ],
+      "delivery_positive_hits": [],
       "delivery_negative_hits": [],
       "enabled_buy_buttons": 0,
       "reasons": [
         "produit exact non confirmé",
-        "signaux livraison: livraison"
+        "TimeoutError('Page.goto: Timeout 30000ms exceeded.\\nCall log:\\n  - navigating to \"https://www.materiel.net/recherche/midea%20portasplit/\", waiting until \"domcontentloaded\"\\n')"
       ],
-      "error": "",
-      "fingerprint": "c08144b503dae35ebd381b4d76b135002b650315b13d3d996fdc1a291686858d",
+      "error": "TimeoutError('Page.goto: Timeout 30000ms exceeded.\\nCall log:\\n  - navigating to \"https://www.materiel.net/recherche/midea%20portasplit/\", waiting until \"domcontentloaded\"\\n')",
+      "fingerprint": "9e7c4be1c8c3d80074201ab963eae6a0e7ba8c0077f0be1b4d72391ff2623eea",
       "last_alert": null
     },
     {
@@ -1763,7 +1739,7 @@
       "name": "Coolblue France recherche",
       "country": "FR/NL/BE",
       "url": "https://www.coolblue.fr/recherche?query=midea%20portasplit",
-      "checked_at": "2026-07-30T07:12:23+00:00",
+      "checked_at": "2026-07-30T09:43:09+00:00",
       "status": "error",
       "alertable": false,
       "product_ok": false,
@@ -1791,7 +1767,7 @@
       "name": "Coolblue Belgique recherche",
       "country": "BE",
       "url": "https://www.coolblue.be/fr/recherche?query=midea%20portasplit",
-      "checked_at": "2026-07-30T07:12:26+00:00",
+      "checked_at": "2026-07-30T09:43:12+00:00",
       "status": "wrong_product_or_unclear",
       "alertable": false,
       "product_ok": false,
@@ -1826,7 +1802,7 @@
       "name": "Bol.com recherche",
       "country": "NL/BE",
       "url": "https://www.bol.com/nl/nl/s/?searchtext=midea%20portasplit",
-      "checked_at": "2026-07-30T07:12:28+00:00",
+      "checked_at": "2026-07-30T09:43:15+00:00",
       "status": "wrong_product_or_unclear",
       "alertable": false,
       "product_ok": false,
@@ -1853,7 +1829,7 @@
       "name": "Gamma NL recherche",
       "country": "NL",
       "url": "https://www.gamma.nl/assortiment/zoeken?text=midea%20portasplit",
-      "checked_at": "2026-07-30T07:12:28+00:00",
+      "checked_at": "2026-07-30T09:43:17+00:00",
       "status": "wrong_product_or_unclear",
       "alertable": false,
       "product_ok": false,
@@ -1880,7 +1856,7 @@
       "name": "Praxis NL recherche",
       "country": "NL",
       "url": "https://www.praxis.nl/search?text=midea%20portasplit",
-      "checked_at": "2026-07-30T07:12:30+00:00",
+      "checked_at": "2026-07-30T09:43:22+00:00",
       "status": "unknown",
       "alertable": false,
       "product_ok": true,
@@ -1915,7 +1891,7 @@
       "name": "Hubo Belgique recherche",
       "country": "BE",
       "url": "https://www.hubo.be/fr/recherche.html?text=midea%20portasplit",
-      "checked_at": "2026-07-30T07:12:32+00:00",
+      "checked_at": "2026-07-30T09:43:26+00:00",
       "status": "wrong_product_or_unclear",
       "alertable": false,
       "product_ok": false,
@@ -1948,36 +1924,44 @@
       "name": "Brico Belgique recherche",
       "country": "BE",
       "url": "https://www.brico.be/fr/search?text=midea%20portasplit",
-      "checked_at": "2026-07-30T07:12:32+00:00",
-      "status": "wrong_product_or_unclear",
+      "checked_at": "2026-07-30T09:43:30+00:00",
+      "status": "unknown",
       "alertable": false,
-      "product_ok": false,
+      "product_ok": true,
       "delivery_status": "positive",
-      "score": -5,
+      "score": 4,
       "price": "",
       "exact_hits": [
         "midea"
       ],
       "model_hits": [
-        "portasplit"
+        "portasplit",
+        "12000 btu"
       ],
       "excluded_hits": [
+        "télécommande",
         "accessoire",
-        "hose"
+        "hose",
+        "filtre"
       ],
-      "available_hits": [],
+      "available_hits": [
+        "disponible"
+      ],
       "unavailable_hits": [],
       "delivery_positive_hits": [
-        "livraison"
+        "livraison",
+        "livraison à domicile"
       ],
       "delivery_negative_hits": [],
-      "enabled_buy_buttons": 0,
+      "enabled_buy_buttons": 3,
       "reasons": [
-        "produit exact non confirmé",
-        "signaux livraison: livraison"
+        "produit exact probable",
+        "signaux dispo: disponible",
+        "signaux livraison: livraison, livraison à domicile",
+        "boutons achat actifs: 3"
       ],
       "error": "",
-      "fingerprint": "c08144b503dae35ebd381b4d76b135002b650315b13d3d996fdc1a291686858d",
+      "fingerprint": "c0d9f4c4e141052d2e5047d39c66e59a1cfd0af3d54a22e2ca66f7ff276cbb42",
       "last_alert": null
     },
     {
@@ -1985,7 +1969,7 @@
       "name": "MediaMarkt ES recherche",
       "country": "ES",
       "url": "https://www.mediamarkt.es/es/search.html?query=midea%20portasplit",
-      "checked_at": "2026-07-30T07:12:35+00:00",
+      "checked_at": "2026-07-30T09:43:33+00:00",
       "status": "wrong_product_or_unclear",
       "alertable": false,
       "product_ok": false,
@@ -2012,7 +1996,7 @@
       "name": "Leroy Merlin ES recherche",
       "country": "ES",
       "url": "https://www.leroymerlin.es/search?q=midea%20portasplit",
-      "checked_at": "2026-07-30T07:12:35+00:00",
+      "checked_at": "2026-07-30T09:43:40+00:00",
       "status": "wrong_product_or_unclear",
       "alertable": false,
       "product_ok": false,
@@ -2039,7 +2023,7 @@
       "name": "Carrefour ES recherche",
       "country": "ES",
       "url": "https://www.carrefour.es/?q=midea%20portasplit",
-      "checked_at": "2026-07-30T07:12:35+00:00",
+      "checked_at": "2026-07-30T09:43:38+00:00",
       "status": "wrong_product_or_unclear",
       "alertable": false,
       "product_ok": false,
@@ -2066,7 +2050,7 @@
       "name": "MediaWorld IT recherche",
       "country": "IT",
       "url": "https://www.mediaworld.it/it/search.html?query=midea%20portasplit",
-      "checked_at": "2026-07-30T07:12:38+00:00",
+      "checked_at": "2026-07-30T09:43:39+00:00",
       "status": "wrong_product_or_unclear",
       "alertable": false,
       "product_ok": false,
@@ -2093,7 +2077,7 @@
       "name": "Leroy Merlin IT recherche",
       "country": "IT",
       "url": "https://www.leroymerlin.it/ricerca?q=midea%20portasplit",
-      "checked_at": "2026-07-30T07:12:38+00:00",
+      "checked_at": "2026-07-30T09:43:40+00:00",
       "status": "wrong_product_or_unclear",
       "alertable": false,
       "product_ok": false,
@@ -2120,7 +2104,7 @@
       "name": "Joybuy recherche",
       "country": "CN/EU",
       "url": "https://www.joybuy.com/search?keywords=midea%20portasplit",
-      "checked_at": "2026-07-30T07:12:39+00:00",
+      "checked_at": "2026-07-30T09:43:41+00:00",
       "status": "wrong_product_or_unclear",
       "alertable": false,
       "product_ok": false,
@@ -2150,7 +2134,7 @@
       "name": "AliExpress recherche",
       "country": "CN/EU",
       "url": "https://www.aliexpress.com/wholesale?SearchText=midea+portasplit",
-      "checked_at": "2026-07-30T07:12:42+00:00",
+      "checked_at": "2026-07-30T09:43:44+00:00",
       "status": "wrong_product_or_unclear",
       "alertable": false,
       "product_ok": false,
